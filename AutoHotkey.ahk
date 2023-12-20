@@ -18,4 +18,9 @@ return
 Run, notepad.exe
 return
 
-MButton::Send {RControl Down}W{RControl Up}
+This line binds the middle mouse button (MButton) to send the key combination Ctrl + W (^w). 
+; When you press the middle mouse button, it simulates the pressing of Ctrl + W. In many 
+; applications and web browsers, Ctrl + W is commonly used to close the currently focused tab or window.
+MButton::Send, ^w: 
+
+
