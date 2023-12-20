@@ -10,15 +10,15 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-^g::
+#g::
 Run, https://www.google.com/
 return
 
-^n::
+#n::
 Run, notepad.exe
 return
 
-This line binds the middle mouse button (MButton) to send the key combination Ctrl + W (^w). 
+; This line binds the middle mouse button (MButton) to send the key combination Ctrl + W (^w). ; 
 ; When you press the middle mouse button, it simulates the pressing of Ctrl + W. In many 
 ; applications and web browsers, Ctrl + W is commonly used to close the currently focused tab or window.
 MButton::Send, ^w: 
