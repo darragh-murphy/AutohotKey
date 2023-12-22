@@ -33,7 +33,7 @@ choco install microsoft-windows-terminal
 # Pick Windows Terminal Theme
 https://windowsterminalthemes.dev/
 
-## Install tmux
+# Install tmux
 
 Open up the Linux distro app (or launch it from the Windows Terminal if you have it installed). Update / upgrade the applications using the package manager
 
