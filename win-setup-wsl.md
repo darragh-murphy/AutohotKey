@@ -1,6 +1,6 @@
 # Setup WSL
 
-## Install
+## Install 
 wsl --install
 
 ## Enable
@@ -8,7 +8,7 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 - Will likely require and prompt for a reboot
 - If you want to upgrade to WSL2, do not reboot yet, otherwise reboot now
 
-## Enable the ‘Virtual Machine Platform’ Windows feature.
+## Enable the ‘Virtual Machine Platform’ Windows feature
 
 Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
 - Will likely require and prompt for a reboot
