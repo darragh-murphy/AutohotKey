@@ -1,5 +1,7 @@
 # Setup WSL
 
+Windows Subsystem for Linux (WSL) is a feature of Windows that allows you to run a Linux environment on your Windows machine
+
 ## Install 
 wsl --install
 
